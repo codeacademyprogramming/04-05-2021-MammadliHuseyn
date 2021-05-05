@@ -1,0 +1,256 @@
+@charset "UTF-8";
+body, ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 5%;
+}
+
+.navbar .navbar-brand {
+  margin-right: 10%;
+}
+
+.navbar .nav-item {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: black;
+  font-weight: 500;
+}
+
+.navbar form * {
+  margin-left: 20px;
+}
+
+.navbar form button {
+  background-color: #7854F7;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero-section {
+  background-image: url(/task/assets/img/hero_section.png);
+  background-size: cover;
+  padding: 18% 0;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  letter-spacing: .05em;
+  color: #272D4E;
+  padding-right: 5%;
+  font-size: 3em;
+}
+
+.hero-section p {
+  color: #94A2B3;
+  margin-top: 2em;
+}
+
+.hero-section button {
+  background-color: #7854F7;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: white;
+  font-size: 12px;
+}
+
+.hero-section span {
+  color: #94A2B3;
+}
+
+.hero-section a {
+  font-weight: 500;
+}
+
+.feature-section .feature-section-heading {
+  margin-bottom: 5%;
+}
+
+.feature-section .feature-section-heading h1 {
+  color: #272D4E;
+  padding: 0 35%;
+}
+
+.feature-section .feature p {
+  color: #94A2B3;
+}
+
+.feature-section .feature a {
+  font-weight: 500;
+}
+
+.feature-section .feature h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.feature-section img {
+  width: 100%;
+}
+
+section.section {
+  background-image: url(/task/assets/img/section.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10%;
+}
+
+section.section img {
+  width: 80%;
+}
+
+section.section .section-content {
+  color: #fff;
+  padding-top: 8%;
+}
+
+section.section .section-content button {
+  background-color: #70C217;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  color: white;
+  margin-top: 1em;
+}
+
+section.section .section-content h1 {
+  font-size: 2em;
+}
+
+section.section .right-content h1 {
+  padding-right: 60%;
+}
+
+section.section .right-content p {
+  padding-right: 30%;
+}
+
+section.section .left-content p, section.section .left-content h1 {
+  padding-left: 30%;
+}
+
+.testimonials-section {
+  padding: 10% 0;
+  background-image: url(/task/assets/img/testimonials-section.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.testimonials-section h1 {
+  padding: 0 32%;
+  margin: 10% 0;
+  font-weight: 700;
+}
+
+.testimonials-section .blockquote {
+  padding: 0 20%;
+}
+
+.testimonials-section .blockquote p {
+  padding: 15%;
+  background-image: url(/task/assets/img/”.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #94A2B3;
+}
+
+.people-section {
+  text-align: center;
+}
+
+.people-section .bg-people {
+  background-image: url(/task/assets/img/people-section.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 8.5% 0;
+}
+
+.people-section p {
+  margin-top: 2em;
+  color: #94A2B3;
+  padding: 0 25%;
+}
+
+.cta-section {
+  color: #fff;
+  background-color: #5F37EF;
+  padding: 5% 0;
+}
+
+.cta-section span {
+  font-weight: 600;
+}
+
+.cta-section p {
+  font-size: 1.5em;
+}
+
+.cta-section button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: white;
+}
+
+footer {
+  padding: 3% 0 0 0;
+  color: #fff;
+  background-color: #7854F7;
+  text-align: center;
+}
+
+footer p {
+  display: inline;
+}
+
+footer .footer-links {
+  margin: 4em 0;
+}
+
+footer .footer-links h1 {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+footer .logo-footer {
+  margin-top: 10%;
+  border-bottom: 1px solid #9A7DFF;
+  padding-bottom: 8%;
+}
+
+footer .container-end-footer {
+  padding: 10px 0;
+  background: #fff;
+  color: black;
+}
+
+footer .container-end-footer img {
+  margin-right: 20px;
+}
+
+footer .container-end-footer p a {
+  color: black;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

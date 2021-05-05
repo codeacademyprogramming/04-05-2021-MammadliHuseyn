@@ -1,0 +1,239 @@
+body,ul{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style-type: none;
+}
+
+.navbar{
+    background-color:transparent;
+    background:transparent;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    padding:20px 5%;
+
+    .navbar-brand{
+        margin-right: 10%;
+    }
+    .nav-item{
+        margin-right: 20px;
+    }
+    a{
+        color:black;
+        font-weight: 500;
+    }
+    form *{
+        margin-left:20px;
+    }
+    form{
+        button{
+            background-color: #7854F7;
+            border:none;
+            padding:8px 15px;
+            border-radius: 5px;
+            color:white;
+        }
+    }
+}
+
+.hero-section{
+    background-image: url(/task/assets/img/hero_section.png);
+    background-size: cover;
+    padding:18% 0;
+    h1{
+        font-weight: 700;
+        letter-spacing: .05em;
+        color: #272D4E;
+        padding-right: 5%;
+        font-size:3em;
+    }
+    p{
+        color: #94A2B3;
+        margin-top:2em;
+    }
+    button{
+        background-color: #7854F7;
+        border:none;
+        padding:15px 30px;
+        border-radius: 30px;
+        color:white;
+        font-size:12px;
+    }
+    span{
+        color: #94A2B3;
+    }
+    a{
+        font-weight: 500;
+    }
+}
+
+.feature-section{
+    .feature-section-heading{
+        margin-bottom:5%;
+        h1{
+            color:#272D4E;
+            padding:0 35%;
+        }
+    }
+    .feature{
+        p{
+            color: #94A2B3;
+        }
+        a{
+            font-weight: 500;
+        }
+        h1{
+            font-size:1.5em;
+            font-weight: 700;
+        }
+    }
+    img{
+        width: 100%;
+    }
+}
+
+section.section{
+    background-image:url(/task/assets/img/section.png);
+    background-size: cover;
+    background-position: center;
+    margin-top:10%;
+
+    img{
+        width:80%;
+    }
+    .section-content{
+        color:#fff;
+        padding-top:8%;
+        button{
+            background-color: #70C217;
+            border:none;
+            padding:15px 25px;
+            border-radius: 30px;
+            color:white;
+            margin-top:1em;
+        }
+        h1{
+            font-size:2em;
+        }
+    }
+    .right-content{
+        h1{
+            padding-right: 60%;
+        }
+        p{
+            padding-right: 30%;
+        }
+    }
+
+    .left-content{
+        p,h1{
+            padding-left: 30%;
+        }
+    }
+
+
+}
+
+.testimonials-section{
+    padding:10% 0;
+    background-image: url(/task/assets/img/testimonials-section.png);
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+
+    h1{
+        padding:0 32%;
+        margin:10% 0;
+        font-weight: 700;
+    }
+
+    .blockquote{
+        padding:0 20%;
+        
+        p{
+            padding:15%;
+            background-image:url(/task/assets/img/”.png);
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-color:#fff;
+            color:#94A2B3;
+        }
+    }
+}
+
+.people-section{
+    text-align: center;
+    .bg-people{
+        background-image:url(/task/assets/img/people-section.png);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        padding:8.5% 0;
+    }
+    p{
+        margin-top:2em;
+        color:#94A2B3;
+        padding:0 25%;
+    }
+}
+
+.cta-section{
+    color: #fff;
+    background-color:#5F37EF;
+    padding:5% 0;
+    span{
+        font-weight: 600;
+    }
+    p{
+        font-size:1.5em;
+    }
+    button{
+        background-color: transparent;
+        border:2px solid #fff;
+        padding:15px 30px;
+        border-radius: 30px;
+        color:white;
+    }
+}
+
+footer{
+    padding:3% 0 0 0;
+    color:#fff;
+    background-color:#7854F7;
+    text-align: center;
+    p{
+        display: inline;
+    }
+    .footer-links{
+        margin:4em 0;
+        // text-align: left;
+        h1{
+            font-size:1em;
+            margin-bottom:1em;
+        }
+    }
+    .logo-footer{
+        margin-top:10%;
+        border-bottom:1px solid #9A7DFF;
+        padding-bottom:8%;
+    }
+
+    .container-end-footer{
+        padding:10px 0;
+        background:#fff;
+        color:black;
+        img{
+            margin-right: 20px;
+        }
+        p{
+            // white-space: nowrap;
+            a{
+                color:black;
+                text-decoration: underline;
+            }
+        }
+    }
+}
